@@ -45,12 +45,12 @@ public class MainPageTest {
         $(byClassName("menu-main__popup-wrapper")).shouldBe(visible);
     }
 
-    @Test
-    public void navigationToAllTools() {
-        mainPage.seeAllToolsButton.click();
-
-        $(byClassName("products-list")).shouldBe(visible);
-
-        assertEquals(Selenide.title(), "All Developer Tools and Products by JetBrains");
-    }
+//    @Test
+//    public void navigationToAllTools() {
+//        mainPage.seeAllToolsButton.click();
+//
+//        $(byClassName("products-list")).shouldBe(visible);
+//
+//        assertEquals(Selenide.title(), "All Developer Tools and Products by JetBrains");
+//    }
 }
