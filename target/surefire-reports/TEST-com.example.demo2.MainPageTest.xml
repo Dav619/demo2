@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.demo2.MainPageTest" time="33.626" tests="3" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.demo2.MainPageTest" time="18.63" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.9\bin"/>
-    <property name="sun.java.command" value="C:\Users\Dav\AppData\Local\Temp\surefire17410875097921861098\surefirebooter7710434581214936311.jar C:\Users\Dav\AppData\Local\Temp\surefire17410875097921861098 2021-01-17T10-19-18_517-jvmRun1 surefire14293717210712269686tmp surefire_07886541287414083291tmp"/>
+    <property name="sun.java.command" value="C:\Users\Dav\AppData\Local\Temp\surefire18045681196384436439\surefirebooter4569627378000213040.jar C:\Users\Dav\AppData\Local\Temp\surefire18045681196384436439 2021-01-19T07-29-26_261-jvmRun1 surefire3099120075258583245tmp surefire_02846718293117374850tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Dav\Downloads\demo2\target\test-classes;C:\Users\Dav\Downloads\demo2\target\classes;C:\Users\Dav\.m2\repository\io\qameta\allure\allure-testng\2.13.7\allure-testng-2.13.7.jar;C:\Users\Dav\.m2\repository\io\qameta\allure\allure-java-commons\2.13.7\allure-java-commons-2.13.7.jar;C:\Users\Dav\.m2\repository\io\qameta\allure\allure-model\2.13.7\allure-model-2.13.7.jar;C:\Users\Dav\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.3\jackson-databind-2.11.3.jar;C:\Users\Dav\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.3\jackson-annotations-2.11.3.jar;C:\Users\Dav\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.3\jackson-core-2.11.3.jar;C:\Users\Dav\.m2\repository\org\apache\tika\tika-core\1.24.1\tika-core-1.24.1.jar;C:\Users\Dav\.m2\repository\org\jooq\joor-java-8\0.9.13\joor-java-8-0.9.13.jar;C:\Users\Dav\.m2\repository\com\codeborne\selenide\5.16.2\selenide-5.16.2.jar;C:\Users\Dav\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Dav\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Dav\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Dav\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Dav\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Dav\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Dav\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Dav\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Dav\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Dav\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Dav\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Dav\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Dav\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Dav\.m2\repository\io\github\bonigarcia\webdrivermanager\4.2.2\webdrivermanager-4.2.2.jar;C:\Users\Dav\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\Dav\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Dav\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Dav\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\Dav\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\Dav\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\Dav\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\Dav\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\Dav\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Dav\.m2\repository\com\google\guava\guava\30.0-jre\guava-30.0-jre.jar;C:\Users\Dav\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Dav\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Dav\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Dav\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\Dav\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Dav\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Dav\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Dav\.m2\repository\io\qameta\allure\allure-selenide\2.13.7\allure-selenide-2.13.7.jar;C:\Users\Dav\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Dav\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Dav\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Dav\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Dav\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Dav\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Dav\.m2\repository\org\slf4j\slf4j-simple\1.7.29\slf4j-simple-1.7.29.jar;"/>
     <property name="allure.results.directory" value="C:\Users\Dav\Downloads\demo2\target/allure-results"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Dav\AppData\Local\Temp\surefire17410875097921861098\surefirebooter7710434581214936311.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Dav\AppData\Local\Temp\surefire18045681196384436439\surefirebooter4569627378000213040.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.9+7-LTS"/>
@@ -61,65 +61,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="navigationToAllTools" classname="com.example.demo2.MainPageTest" time="6.855">
-    <failure message="Element not found {By.className: products-list}&#10;Expected: visible&#10;Screenshot: file:/C:/Users/Dav/Downloads/demo2/build/reports/tests/1610864385616.0.png&#10;Page source: file:/C:/Users/Dav/Downloads/demo2/build/reports/tests/1610864385616.0.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.products\-list&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">com.codeborne.selenide.ex.ElementNotFound: 
-Element not found {By.className: products-list}
-Expected: visible
-Screenshot: file:/C:/Users/Dav/Downloads/demo2/build/reports/tests/1610864385616.0.png
-Page source: file:/C:/Users/Dav/Downloads/demo2/build/reports/tests/1610864385616.0.html
-Timeout: 4 s.
-Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".products\-list"}
-	at com.example.demo2.MainPageTest.navigationToAllTools(MainPageTest.java:52)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":".products\-list"}
-  (Session info: chrome=87.0.4280.88)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-HN2PJ80', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Dav\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:50186}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c4ec39531d88f748557e288b66381882
-*** Element info: {Using=class name, value=products-list}
-	at com.example.demo2.MainPageTest.navigationToAllTools(MainPageTest.java:52)
-</failure>
-    <system-err><![CDATA[[main] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
-[main] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\Dav\Downloads\demo2\build\downloads\1610864365388_9204_1
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 87.0.4280.88 (resolved driver for Chrome 87)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dav\.cache\selenium\chromedriver\win32\87.0.4280.88\chromedriver.exe
-[main] INFO com.codeborne.selenide.webdriver.AbstractDriverFactory - Write webdriver logs to: C:\Users\Dav\Downloads\demo2\build\reports\tests\webdriver.1610864367057_9204_1.log
-Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 31827
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jan 17, 2021 10:19:35 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-[main] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=87.0.4280.88 Platform=WINDOWS
-[main] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 5.16.2
-[main] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
-[main] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on WINDOWS (c4ec39531d88f748557e288b66381882)
-]]></system-err>
-  </testcase>
-  <testcase name="search" classname="com.example.demo2.MainPageTest" time="1.613"/>
-  <testcase name="toolsMenu" classname="com.example.demo2.MainPageTest" time="5.155">
-    <failure message="Element not found {By.xpath: //div[contains(@class, &apos;menu-main__item&apos;) and text() = &apos;Tools&apos;]}&#10;Expected: exist&#10;Screenshot: file:/C:/Users/Dav/Downloads/demo2/build/reports/tests/1610864393935.1.png&#10;Page source: file:/C:/Users/Dav/Downloads/demo2/build/reports/tests/1610864393935.1.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(@class, &apos;menu-main__item&apos;) and text() = &apos;Tools&apos;]&quot;}" type="com.codeborne.selenide.ex.ElementNotFound">com.codeborne.selenide.ex.ElementNotFound: 
-Element not found {By.xpath: //div[contains(@class, 'menu-main__item') and text() = 'Tools']}
-Expected: exist
-Screenshot: file:/C:/Users/Dav/Downloads/demo2/build/reports/tests/1610864393935.1.png
-Page source: file:/C:/Users/Dav/Downloads/demo2/build/reports/tests/1610864393935.1.html
-Timeout: 4 s.
-Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'menu-main__item') and text() = 'Tools']"}
-	at com.example.demo2.MainPageTest.toolsMenu(MainPageTest.java:43)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'menu-main__item') and text() = 'Tools']"}
-  (Session info: chrome=87.0.4280.88)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-HN2PJ80', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Dav\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:50186}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c4ec39531d88f748557e288b66381882
-*** Element info: {Using=xpath, value=//div[contains(@class, 'menu-main__item') and text() = 'Tools']}
-	at com.example.demo2.MainPageTest.toolsMenu(MainPageTest.java:43)
-</failure>
-  </testcase>
+  <testcase name="search" classname="com.example.demo2.MainPageTest" time="2.26"/>
 </testsuite>

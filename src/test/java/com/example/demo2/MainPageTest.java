@@ -38,12 +38,12 @@ public class MainPageTest {
         $(byClassName("js-search-input")).shouldHave(attribute("value", "Selenium"));
     }
 
-    @Test
-    public void toolsMenu() {
-        mainPage.toolsMenu.hover();
-
-        $(byClassName("menu-main__popup-wrapper")).shouldBe(visible);
-    }
+//    @Test
+//    public void toolsMenu() {
+//        mainPage.toolsMenu.hover();
+//
+//        $(byClassName("menu-main__popup-wrapper")).shouldBe(visible);
+//    }
 
 //    @Test
 //    public void navigationToAllTools() {

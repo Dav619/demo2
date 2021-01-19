@@ -5,7 +5,6 @@
     <classes>
       <class name="com.example.demo2.MainPageTest">
         <methods>
-          <include name="navigationToAllTools"/>
           <include name="setUpAllure"/>
           <include name="toolsMenu"/>
           <include name="setUp"/>
